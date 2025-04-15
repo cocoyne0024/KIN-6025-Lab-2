@@ -49,9 +49,9 @@ st.sidebar.header("Select Athlete")
 athlete_names = df["Athlete"].unique()
 selected_athlete = st.sidebar.selectbox("Athlete", athlete_names)
 
-st.title("Athlete Performance Dashboard")
+st.title("Isometric Performance Dashboard")
 st.markdown("""
-This dashboard visualizes performance extracted from three isometric tests (IMTP, ISO Squat, Iso-Larsen Press).
+This dashboard visualizes peak values extracted from our isometric testing battery.
 
 For each test, three variables are displayed:
 - **IMTP:** Peak Force (N), RFD 200ms (N/s), Time to Peak Force (s)
